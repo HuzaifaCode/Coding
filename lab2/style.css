@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-weight: 400;
+}
+div p{
+    color: gold;
+}
+div + p{
+    color: orange;
+}
+.header {
+    display: flex;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+}
+#first_div{
+    border: 1px solid black;
+}
+#italic-section{
+    font-style: italic;
+}
+#oblique_section{
+    font-style:oblique;
+}
+#address{
+    color: blueviolet;
+}
+#extra-tags{
+    text-decoration: underline;
+}
+#span{
+    text-transform: capitalize;
+}
+#figure{
+    background-color: blue;
+}
+figcaption{
+    color: azure;
+}
+#second_div{
+    font-size: medium;
+}
+#image_2{
+    height: 200px;
+    width: 25%;
+    box-shadow: 0px 0px 20px black;
+}
+#video{
+    position: relative;
+}
+#embed{
+    background-color: bisque;
+}
+#svg{
+    float: right;
+    opacity: 50%;
+}
+li{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.listing ul{
+    list-style: none;
+}
+.listing ul li {
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: red;
+}
+.listing ol {
+    text-decoration:overline;
+}
+a:link{
+    text-decoration: overline;
+}
+form{
+    border: 2px solid orange;
+}
+.head td{
+    outline-color: red;
+    outline-offset: 2px;
+    outline-style: dashed;
+    outline-width: 2px;
+}
+.first .name{
+    text-transform: lowercase;
+}
+input:read-only {
+    background-color: yellow;
+  }
+  input:default {
+    box-shadow: 0 0 1px 1px olivedrab;
+  }
+  a:visited {
+    color: pink;
+  }
+  input:valid {
+    background-color: aqua;
+  }
+  input:invalid {
+    border: 2px solid olivedrab;
+  }
+  input:in-range {
+    border: 2px solid yellow;
+  }
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.footer{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    float: right;
+}

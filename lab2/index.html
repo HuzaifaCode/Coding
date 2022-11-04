@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+    <style>
+        table,td,tr{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <address id="address">
+            Written by 20-NTU-CS-1125
+        </address>
+        <hr>
+        <nav>
+        <ul class="header">
+            <li><a class="visited" href="#">Home</a></li>
+            <li><a href="#">Next Page</a></li>
+            <li><a href="#">login</a></li>
+            <li><a href="#">Sign Up</a></li>
+        </ul>
+    </nav>
+    </header>
+    <br>
+    <main>
+        <div id="first_div">
+            This is 1st Div.
+            <section id="italic-section">
+                This section will have 1st three headings tags.
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <hr>
+            </section>
+            <section id="oblique_section">This section will have last three heading tags.
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+                <hr>
+            </section>
+        </div>
+        <section id="extra-tags">
+            Some Extra Tags
+            <pre>
+            <s>This is s tag</s>
+            <q>This is q tag</q>
+            <b>This is b tag</b>
+            X <sub>yz</sub>
+            X <sup>yz</sup>
+            <u>This is u tag</u>
+            <small>This is small tag</small>
+            
+            <samp>This is samp tag</samp>
+            <abbr title="UK">United Kingdom</abbr>
+            <strong>This is strong tag</strong>
+            <dl>
+                These are dl,dt and dd tags
+                <br>
+                <dt>Coffee</dt>
+                <dd>Black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>White cold drink</dd>
+            </dl>
+            </pre>
+            <hr>
+            <span class="span">This is span tag.The span HTML element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. It should be used only when no other semantic element is appropriate. <span> is very much like a div element, but div is a block-level element whereas a span is an inline element.</span>
+            <br>
+            
+        </section>
+        <br>
+        <hr>
+        <figure id="figure">
+            <img src="download.jpeg" alt="home" width="33%">
+            <figcaption>
+                Home-Figure 
+            </figcaption>
+        </figure>
+        <hr>
+        <div class="second_div">
+            This is 2nd Div.
+            It is Paragraph tag
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam possimus magnam velit modi incidunt dicta delectus temporibus, ratione veritatis, sit quod harum eos ea maxime porro ipsam aliquid alias explicabo facere, cumque doloribus magni. Similique aperiam at facere veniam, reprehenderit possimus temporibus. Eos, at! Officia dicta ipsa odio voluptas porro corrupti eum consectetur ipsum et, neque dolores quam vel ex ad enim a suscipit iusto esse nobis accusantium fugit fugiat voluptatibus veniam. Placeat unde velit fugiat reprehenderit veritatis, aut eligendi cumque laborum culpa vero earum assumenda neque iure doloribus quas molestiae nihil praesentium animi. Voluptas aliquam placeat non rerum animi?</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae voluptates facere ex est dolor sit consectetur, ducimus dolores ab inventore. Quam cum nesciunt sunt exercitationem, deleniti aliquid sapiente, recusandae praesentium molestiae quas voluptas similique maiores iste omnis aperiam architecto labore excepturi! Saepe reprehenderit nam distinctio ad, incidunt eligendi voluptatibus! Molestias beatae sit quisquam, perspiciatis iste, asperiores assumenda incidunt minima, expedita consequuntur neque quae? Laborum magnam ab eligendi molestiae. Autem aliquid doloribus expedita consectetur, quidem fuga quaerat unde. Ipsam dolorum possimus libero ab fugit ad dolorem, laboriosam veritatis cumque voluptatibus commodi ex. Modi doloremque perspiciatis tenetur totam excepturi temporibus nobis?</p>
+
+        </div>
+        <br>
+        Image tag
+        <hr>
+        <img id="image_2" src="download.jpeg" alt="Home Picture" style="width:33%">
+        <br>
+        Video Tag
+        <hr>
+        <video id="video" src="video/Amazoncom ROYBI Robot Smart Kids Educational Companion Toy for Preschool STEM Language Learning  Teaching English Spanish French Chinese Over 1000 Interactive Activities  Stories  Toys  Games - .mp4.mp4" style="width:33% ;" controls></video>
+        <br>
+        Audio tag
+        <hr>
+        <audio src="audio/Abdul Hannan & Rovalio - Iraaday (Official Music Video).mp3" controls></audio>
+        <br>
+        Embedded Video Tag
+        <hr>
+        <iframe id="embed" width="560" height="315" src="https://www.youtube.com/embed/qIjaPWNVDL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        The Source element
+        <hr>
+        <br>
+        <audio controls>
+            <audio controls>
+                <source src="audio/Abdul Hannan & Rovalio - Iraaday (Official Music Video).mp3" type="audio/mp3">
+                <source src="audio/Asim Azhar - Habibi (Official Video) - New Song 2022.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </audio>
+        <br>
+        This is SVG element
+        <hr>
+        <svg id="svg" width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="orange" />
+        </svg>
+        <hr>
+        This is del element
+        <hr>
+        <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+        <hr>
+        <div class="listing">
+            This is 3rd Div. It will have Different List Styles and Items
+            <ul>Unordered List
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+            <hr>
+            <ol >Ordered List
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ol>
+        </div>
+        <hr>
+        <form action="">
+            Enter Your Name:<input type="text" placeholder="Name" required>
+            <br>
+            Enter Your Number: <input type="number" placeholder="XXXXXXXXXXXX" readonly>
+            <br>
+            Enter Your Email: <input type="email" class="default valid" name="email" placeholder="someone@example.com" >
+            <br>
+            <legend>
+                <hr>
+                Gender:
+                <br>
+                Male<input type="radio" name="gender" id="" >
+                <br>
+                Female<input type="radio" name="gender" id="">
+            </legend>
+            <hr>
+            <h2>Select Your Courses</h2>
+            <input type="checkbox invalid" name="oop" id="" >OOP
+            <br>
+            <input type="checkbox in-range" name="re" id="">RE
+            <br>
+            <input type="checkbox" name="mgt" id="">MGT
+            <br>
+            <input type="checkbox" name="dbs"  id="">DBS
+            <br>
+            <hr>
+            Select Your Section: <select name="section" id="">Section
+                <option value="se">BSSE-5</option>
+                <option value="cs" selected>BSCS-5</option>
+                <option value="it">BSIT-5</option>
+            </select>
+            <br>
+            Select Date: <input type="date" name="date" id="">
+            <br>
+            Select Time: <input type="time" name="time" id="">
+            <br>
+            <input type="file" placeholder="Choose File">
+            <br>
+            <input type="button" value="Submit">
+        </form>
+        <hr>
+        <table>
+            <caption>Students Table</caption>
+            <tr class="head">
+                <td>Name</td>
+                <td>Reg-Number</td>
+                <td>Section</td>
+            </tr>
+            <tr class="first">
+                <td class="name">Raza Rana</td>
+                <td>20-NTU-CS-1342</td>
+                <td>BSSE-5</td>
+            </tr>
+            <tr>
+                <td>Talha Rana</td>
+                <td>20-NTU-CS-1184</td>
+                <td>BSSE-5</td>
+            </tr>
+            <tr>
+                <td>Huzaifa Javed</td>
+                <td>20-NTU-CS-1125</td>
+                <td>BSSE-5</td>
+            </tr>
+            <tr>
+                <td>Areesha Rana</td>
+                <td>20-NTU-CS-1045</td>
+                <td>BSSE-5</td>
+            </tr>
+        </table>
+    </main>
+    <footer >
+        <ul class="footer">
+            <li><a href="#">Copyright terms secured</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us!</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
